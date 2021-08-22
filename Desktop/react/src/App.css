@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./reel.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.App{
+    width: 70vw;
+    height: 80vh;
+    border: 0.5px solid rgb(184, 184, 184);
+    box-shadow: 2px 2px 10px 2px rgb(184, 184, 184);
+    margin-left: 14vw;
+    margin-top: 8vh;
+    border-radius: 30px;
+    font: 700 1rem apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
+    padding-left: 10vw;
+    background-color: rgba(253, 150, 219, 0.322);
+}
+#h{
+   margin-left: 15vw;
+   color: rgb(252, 5, 157);
+   
+}
+.inp{
+    outline-width: 0;
+    width: 22vw;
+    height: 8vh;
+    border-radius: 12px;
+    border: 2px solid rgb(97, 99, 96);
+    font: 550 1rem apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 20px;
+    
+}
+.btn{
+   
+    background-color: #3293ee9a;
+    width: fit-content;
+    height: 8vh;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 21px;
+    cursor: pointer;
+    margin: 15vh;
+    margin-left: 18vw;
+    margin-top: 26vh;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.cont{
+    display: flex;
+    
+}
+.list{
+    padding-left: 2vw;
+    margin-top: 4vh;
+    
+}
+h2,h4{
+    color: white;
+}
+.btn:hover{
+    background-color: rgba(20, 206, 231, 0.705);
+    box-shadow: 0px 0px 4px 2px rgb(255, 255, 255);
+}
+
+
